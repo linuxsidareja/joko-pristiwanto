@@ -36,6 +36,32 @@
 
 <body id="page-top">
 
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel">Program Kerja</h4>
+			  </div>
+			  <h2 class="tengah">Visi dan Misi</h2>
+			  <h3 class="tengah">1. Visi</h3>
+			  <p>Bersama membangun desa menuju desa yang Tentram, Maju, Makmur, Berkeadilan dan Bermanfaat.</p>
+			  <h3 class="tengah">2.Misi</h3>
+				<ol>
+					<li>Melanjutkan program....</li>
+					<li>misi selanjutnya....</li>
+					<li>misi berikutnya....</li>
+				</ol>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,13 +85,13 @@
                         <a class="page-scroll" href="#tentang">Tentang</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#program">Program</a>
+                        <a class="page-scroll" href="#visimisi">Program</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#profil">Profil</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#testimoni">Testimonial</a>
+                        <a class="page-scroll" href="#testimoni">Testimoni</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#kontak">Kontak</a>
@@ -145,11 +171,13 @@
         </div>
     </section>
 
-    <aside id="profil" class="bg-dark">
+    <aside id="visimisi" class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+                <h2>Visi dan Misi!</h2>
+				<button class="btn btn-default btn-xl" data-toggle="modal" data-target="#myModal">
+				  Lihat Visi dan Misi!
+				</button>
             </div>
         </div>
     </aside>
@@ -160,12 +188,12 @@
 			<div class="col-lg-4">
 			  <img class="img-circle" src="img/testi/soep.jpeg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
 			  <h2>Soep,<br><small>Warga Purwokerto Uttaran</small></h2>
-			  <p>Saya kenal pak Joko sejak 2012, semangatnya luar biasa, memperjuangkan UU Desa dan perbaikan nasib para perangkat desa, hingga akhirnya lahirlah UU 6/2014 ttg Desa yg skrg dinikmati seluruh Desa di Indonesia".</p>
+			  <p>"Saya kenal pak Joko sejak 2012, semangatnya luar biasa, memperjuangkan UU Desa dan perbaikan nasib para perangkat desa, hingga akhirnya lahirlah UU 6/2014 ttg Desa yg skrg dinikmati seluruh Desa di Indonesia".</p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-lg-4">
 			  <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 200px; height: 200px;">
 			  <h2>Rokhmat,<br><small>kades Tambak, ketua Apdesi Banyumas</small></h2>
-			  <p>Lanjutkan !!!!! Kab. Cilacap khusunya di ds saudara/ wilayah kubangkangkung msh membutuhkan seorang Joko....untuk memajukan wilayah.....</p>
+			  <p>"Lanjutkan !!!!! Kab. Cilacap khusunya di ds saudara/ wilayah kubangkangkung msh membutuhkan seorang Joko....untuk memajukan wilayah....."</p>
 			</div><!-- /.col-lg-4 -->
 			<div class="col-lg-4">
 			  <img class="img-circle" src="img/testi/yossy.jpeg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
@@ -173,18 +201,27 @@
 			  <p>"Joko Pris merupakan tokoh sentral dalam perancangan UU Desa. Dia menjadi penyambung lidah rakyat desa. Dia memiliki pengetahuan dan kemampuan tentang desa yang lengkap. Desa Kubangkangkung bangga memiliki Kepala Desa seperti dia."</p>
 			</div><!-- /.col-lg-4 -->
 		  </div><!-- /.row -->        
+
+		  <div class="row">
+			<div class="col-lg-4">
+			  <img class="img-circle" src="img/testi/bayu.jpeg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
+			  <h2>Bayu Setyo Nugroho,<br><small>Kepala Desa Dermaji</small></h2>
+			  <p>"Joko Pristiwanto itu punya komitmen besar dalam memperjuangkan hak-hak masyarakat desa. Hal itu dibuktikan dengan kegigihannya dalam mendorong lahirnya UU Desa. Saya tahu karena kita sering bersama."</p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+			  <img class="img-circle" src="img/testi/teguh.jpeg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
+			  <h2>Teguh Budi Suhartono,<br><small>Kades Sidareja, Ketua APDESI Cilacap</small></h2>
+			  <p>"Ragam budaya ada di Desa Kubangkangkung. Peningkatan ekonomi yang cukup tinggi. Pembangunan infrastruktur yg tertata dengan apik. Hadirnya obyek wisata danau kubangkangkung nan elok dulu desa ini begitu tertinggal..angka kemiskinan cukup tinggi. Pembangunanya, pendidikanya, website desa, itu diantara prestasi JOKO PRISTIWANTO, sang mantan kades yg tdk pernah berhenti mbangun desa, walaupun tanpa embel-embel jabatan KADES. Figur yg sulit di temukan. Semangat yg patut ditiru dan pejuang yg mestinya kita beri penghargaan."</p>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-lg-4">
+			  <img class="img-circle" src="img/testi/hendrid.jpeg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
+			  <h2>Hendrid Sukasno,<br><small>Kades Kawunganten Lor</small></h2>
+			  <p>"Pak joko itu sebagai pejuang desa dan penggiat desa. Temasuk pejuang desa IT."</p>
+			</div><!-- /.col-lg-4 -->
+		  </div><!-- /.row -->        
+
         </div>
     </section>
-
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Program!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
-            </div>
-        </div>
-    </aside>
 
     
     <section id="kontak">
@@ -197,11 +234,11 @@
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
+                    <p><a href="tel:+6285227917770">+62 852-2791-7770</a></p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:rdes.cilacap@gmail.com">info@jokopristiwanto.web.id</a></p>
                 </div>
             </div>
         </div>
