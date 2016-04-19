@@ -42,7 +42,26 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="$('#hasil').modal('show')">
+
+		<!-- Modal - Hasil -->
+		<div class="modal fade" id="hasil" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-hasil" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" id="myModalLabel-hasil"><strong>Terima kasih</strong></h4>
+			  </div>
+			  <div class="modal-body">
+			  <h2 class="tengah">"Perjuangan untuk rakyat desa tdk hanya menjadi kepala desa. Saya berkomitmen pada diri saya sendiri, saya akan tetap berjuang untuk masyarakat desa, entah dimanapun saya berada."</h2>
+			  <p class="tengah"><strong>- Joko pristiwanto -</strong></p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Tutup</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
 
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
